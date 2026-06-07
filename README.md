@@ -36,4 +36,4 @@ To strengthen my programming fundamentals and build a strong foundation in Pytho
 
 Prachi Sehrawat
 
-*"Every expert was once a beginner.
+*Every expert was once a beginner :)
