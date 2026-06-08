@@ -156,3 +156,10 @@ while True:
 
     else:
         print("Please choose a valid option (1-6).")
+
+
+
+
+
+
+        
