@@ -8,10 +8,10 @@ scorecard = [
     ["Shami",    8, 10, 0, 0],
     ["Bumrah",   4,  6, 0, 0],
 ]
-
+print("1. Top Scorers")
 #view 1 - Top Scorers
 
-def show_top_scorers(data):
+#def show_top_scorers(data):
 
     temp = data.copy()
 
@@ -30,7 +30,7 @@ def show_top_scorers(data):
 
 #view 2 - Strike Rate Kings
 
-def show_strike_rate(data):
+#def show_strike_rate(data):
 
     temp = data.copy()
 
@@ -50,7 +50,7 @@ def show_strike_rate(data):
 
 #view 3 - Boundary Hitters
 
-def show_boundary_hitters(data):
+#def show_boundary_hitters(data):
 
     temp = data.copy()
 
@@ -73,7 +73,7 @@ def show_boundary_hitters(data):
 
 #view 4 - Alphabetical
 
-def show_alphabetical(data):
+#def show_alphabetical(data):
 
     temp = data.copy()
 

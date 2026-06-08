@@ -1,5 +1,11 @@
 nums = [4, 6, 2, 6, 4, 4, 3, 2, 6, 1]
-freq = {}
+freq = {} # dictionary to store the frequency of each number
+
+# count()
+# if key in dict: ignore the value in loop
+# dict[key] = value
+# logic - counter/frequency dictionary to count the occurrences of each number
+# dictionary to store the frequency of each number
 
 for i in nums:
     if i in freq:
