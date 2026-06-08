@@ -88,6 +88,8 @@ print("1. Top Scorers")
         print(i + 1, temp[i][0])
 
 #main program
+while True:
+    
 
 show_top_scorers(scorecard)
 
