@@ -6,7 +6,7 @@ p = input("Enter master password: ")
 
 if p != m:
     print("Wrong password!")
-    
+
 else:
     mode = input("Add or View? ").lower()
 
@@ -15,7 +15,7 @@ else:
         pw = input("Password: ")
 
         with open("passwords.txt", "a") as f:
-            f.write(a + "|" + pw + "\n")
+            f.write(a + "|" + pw )
 
         print("Saved!")
 
