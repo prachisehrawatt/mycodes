@@ -22,5 +22,5 @@ else:
     elif mode == "view":
         with open("passwords.txt", "r") as f:
             for l in f:
-                a, pw = l.strip().split("|")
+                a, pw = l.split("|")
                 print("User:", a, "| Password:", pw)
