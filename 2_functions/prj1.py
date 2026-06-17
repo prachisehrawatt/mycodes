@@ -1,3 +1,6 @@
+
+# COMPUTER QUIZ GAME ( Mini Project - Week 2)
+
 print("       Welcome to the Computer Quiz Game!      ")
 playing = input("do you want to play? (yes/no): ").lower()
 
@@ -25,6 +28,7 @@ if answer == "graphics processing unit":
     score += 1
 else:
     print("Incorrect!")
+
 
 # Question 3
 answer = input("What does RAM stand for? ").lower()
