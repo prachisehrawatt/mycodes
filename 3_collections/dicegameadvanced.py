@@ -9,7 +9,7 @@ user = []
 for i in range(n):
     user.append(input(f"Enter Player {i} Name: "))
 
-user.append("System")
+user.append('system')
 scores = [[] for i in range(len(user))]
 
 while True:
