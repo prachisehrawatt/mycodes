@@ -10,7 +10,6 @@ for i in range(n):
     user.append(input(f"Enter Player {i} Name: "))
 
 user.append("System")
-
 scores = [[] for i in range(len(user))]
 
 while True:
@@ -34,7 +33,7 @@ while True:
 
         if total >= 50:
             print(f"{user[i]} Wins the Game!")
-            break
+            exit()
 
     print("=====Scoreboard=====")
     for i in range(len(user)):
