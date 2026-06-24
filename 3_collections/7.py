@@ -1,0 +1,10 @@
+from collections import deque
+d = deque(maxlen=2)
+d.append(4)
+d.append(4)
+d.append(4)
+d.append(4)
+#d = deque([1, 2, 3, 4, 5])
+d.rotate(4)
+d.popleft()
+print(d)
