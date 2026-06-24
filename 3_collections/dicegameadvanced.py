@@ -21,19 +21,19 @@ while True:
 
         scores[i].append(roll)
 
-        if roll == 6:
+        if roll == 6: #repeat function
             print("Bonus Chance!")
             roll = roll_dice()
             print("Rolled Again:", roll)
             scores[i].append(roll)
 
-        total = list(accumulate(scores[i]))[-1]
+        total = list(accumulate(scores[i]))[-1] #last score
 
         print("Total Score:", total)
 
         if total >= 50:
             print(f"{user[i]} Wins the Game!")
-            exit()
+            exit() #break (why not) 
 
     print("=====Scoreboard=====")
     for i in range(len(user)):
