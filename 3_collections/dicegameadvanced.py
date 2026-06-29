@@ -39,3 +39,4 @@ while True:
     for i in range(len(user)):
         total = list(accumulate(scores[i]))[-1]
         print(user[i], ":", total)
+        
