@@ -1,0 +1,4 @@
+maths 
+eng 
+hindi 
+science 
