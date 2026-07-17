@@ -30,7 +30,7 @@ class Book:
         conn.commit()
 
     def show_available(self):
-        cur.execute("SELECT * FROM books WHERE available=True")
+        cur.execute("SELECT * FROM books WHERE available=1")
         for i in cur.fetchall():
             print(i)
 
