@@ -5,6 +5,10 @@ class Car:
 
     def get_model(self):
         return self.__model + " !"
+    
+    def fuel_type(self):
+        return "Petrol/Diesel fuel"
+    
 
     def car_name(self):     # function is called as method in python/coding lang
         return f"Car {self.__brand} , Model : {self.__model}"
@@ -14,5 +18,12 @@ class ElectricCar(Car):
         super().__init__(ubrand, umodel)
         self.battery_size = battery_size
 
-e_car = ElectricCar('Tata', 'Tiago', '50kWh')
-print(e_car.get_model())
+    def fuel_type(self):
+        return "Electric Charge"
+
+e_car = ElectricCar('Tata', 'TiagoEV' ,'50kWh')
+print(e_car.fuel_type())
+
+nexon = Car('Tata', 'Nexon')
+print(nexon.fuel_type())
+
