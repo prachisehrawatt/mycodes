@@ -68,7 +68,7 @@ while True:
 
     ch = int(input("Enter Choice: "))
 
-    if ch == 1:
+    if ch==1:
         name = input("Name: ")
         age = int(input("Age: "))
         grade = input("Grade: ")
@@ -76,7 +76,7 @@ while True:
         s.save()
         print("student added !")
 
-    elif ch == 2:
+    elif ch==2:
         name = input("Name: ")
         age = int(input("Age: "))
         sub = input("Subject: ")
@@ -85,7 +85,7 @@ while True:
         t.save()
         print("teacher added !")
 
-    elif ch == 3:
+    elif ch==3:
         name = input("Name: ")
         age = int(input("Age: "))
         dep = input("Department: ")
@@ -94,14 +94,14 @@ while True:
         st.save()
         print("staff added !")
 
-    elif ch == 4:
+    elif ch==4:
         cur.execute("SELECT * FROM persons")
         rows = cur.fetchall()
         print("----Records----")
         for i in rows:
             print(i)
 
-    elif ch == 5:
+    elif ch==5:
         print("thank you !")
         break
 
